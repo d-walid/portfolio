@@ -34,7 +34,13 @@ const ProjectPortfolio = () => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
+          <Button
+            size="small"
+            color="primary"
+            onClick={(event) =>
+              window.open("https://github.com/d-walid/portfolio", "_blank")
+            }
+          >
             GitHub page
           </Button>
         </CardActions>
