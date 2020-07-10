@@ -1,0 +1,108 @@
+.AboutMe {
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.card {
+  margin-right: 2rem;
+  text-align: center;
+  height: 40rem;
+  width: 20rem;
+  color: white;
+}
+
+.card-inner {
+  border-radius: 6%;
+  background: linear-gradient(
+    180deg,
+    rgba(62, 90, 147, 1) 0%,
+    rgba(41, 58, 93, 1) 100%
+  );
+  height: 40rem;
+  width: 20rem;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front-presentation {
+  top: 30%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.card-front-presentation,
+.card-back-presentation {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back-presentation {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  transform: rotateY(180deg);
+}
+
+.card-back-presentation p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-front-resume {
+  top: 30%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.card-front-resume,
+.card-back-resume {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back-resume {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  transform: rotateY(180deg);
+}
+
+.card-back-resume p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-front-hobbies {
+  top: 30%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.card-front-hobbies,
+.card-back-hobbies {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back-hobbies {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  transform: rotateY(180deg);
+}
+
+.card-back-hobbies p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

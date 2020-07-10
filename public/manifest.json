@@ -1,0 +1,8 @@
+{
+  "short_name": "My Portfolio",
+  "name": "My Portfolio from a school project",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
