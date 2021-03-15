@@ -1,3 +1,5 @@
-Hello, welcome to my first portfolio developed with React. At first, it was a project for my old school (Epitech).
+Première réalisation d’un portfolio me concernant. Développé entièrement en React car j’ai une certaine affection pour ce framework.
 
-But i decided to modify this project for the future. That's why, in the first week of March 2021, this project will be updated with some news inside.
+Il a été crée durant mon année à Épitech. Il sera modifié en temps et en heure en subissant une refonte.
+
+Grâce à ce projet, j’ai pu travailler avec Material-UI.
